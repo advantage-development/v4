@@ -66,10 +66,10 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (0, uint256("0x000002ab92c52760afa017db7c08fc825fcb19b585b891c8d2c9d9bd5bb527ea"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1544809811, // * UNIX timestamp of last checkpoint block
+    1531667076, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    20000000        // * estimated number of transactions per day after checkpoint
+    2000        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -169,7 +169,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "0439a099c9f4efce0c77adb915fd03d79190caa09f6586d9b5dfcefa0d76cfbe4db7ce3d3a073cef95c52655fd5713b13ad4ef00f76538a8a3df1e1f64ba707fb8";
         strObfuscationPoolDummyAddress = "ar1fnibtjwvqYE1T7Lce5uYbdt3pf6PKUu";
-        nStartMasternodePayments = 1544809811;
+        nStartMasternodePayments = 1531667076;
 
     }
 
